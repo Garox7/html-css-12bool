@@ -6,12 +6,12 @@
     padding: 15px;
 }
 
+.double {
+    min-height: 100px;
+}
+
 .nasted {
     background-color: #37de4b;
     min-height: 60px;
     border: 1px solid blue;
-}
-
-.spacer {
-    height: 20px;
 }

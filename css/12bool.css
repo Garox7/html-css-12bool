@@ -14,11 +14,47 @@
     width: 100%;
 }
 
+.j-start {
+    justify-content: flex-start;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+.a-start {
+    align-items: flex-start;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-end {
+    align-items: flex-end;
+}
+
+.spacer {
+    height: 20px;
+}
+
 [class*="col-"] {
     flex: 0 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;  
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.j-between {
+    justify-content: space-between;
 }
 
 /******** COLUMN ********/
